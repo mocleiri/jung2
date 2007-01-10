@@ -117,7 +117,7 @@ public class PickTranslateBehavior extends PickMouseBehavior implements MouseBeh
 	 * @param ypos Current mouse Y pos.
 	 **/
 	public void updateScene(int xpos, int ypos){
-		System.err.println("update scene pick translate");
+//		System.err.println("update scene pick translate");
 		TransformGroup tg = null;
 
 		if (!mevent.isAltDown() && !mevent.isMetaDown()){
